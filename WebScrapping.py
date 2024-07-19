@@ -286,7 +286,7 @@ for linha in resultados4:
 print("\n=====================================================================")
 
 # 5. Mostrar todos os Metadados por evento.
-query5 = '''
+""" query5 = '''
 SELECT e.nome, m.metadado 
 FROM Eventos e
 JOIN Metadados m ON e.evento_id = m.evento_id
@@ -295,4 +295,4 @@ resultados5 = executar_consulta(query5)
 print("Todos os Metadados por evento:")
 for linha in resultados5:
     print(linha)
-print("\n=====================================================================")
+print("\n=====================================================================") """
